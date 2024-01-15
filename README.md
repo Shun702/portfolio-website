@@ -47,3 +47,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Fresh, modern UI design
 - Light & Dark mode
 - Responsive website
+
+# Links
+
+video: https://youtu.be/sUKptmUVIBM?feature=shared
+git: https://github.com/ByteGrad/portfolio-website

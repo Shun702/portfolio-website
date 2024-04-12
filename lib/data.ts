@@ -7,6 +7,14 @@ import springframework from "@/public/spring.png"
 import Stendhal from "@/public/Stendhal.jpeg"
 import moonshot from "@/public/moonshotLandscape.png"
 import stock from "@/public/stock.jpg"
+import music from "@/public/music-app.png"
+import recipe from "@/public/recipe.png"
+import othello from "@/public/othello.jpg"
+import car from "@/public/car.jpeg"
+import faceRecognition from "@/public/face-recognition.jpg"
+import horizon from "@/public/horizon.jpeg"
+import solar from "@/public/solar-system.png"
+import article from "@/public/article-classification.jpeg"
 
 export const links = [
   {
@@ -29,6 +37,7 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
+
 ] as const;
 
 export const experiencesData = [
@@ -38,7 +47,7 @@ export const experiencesData = [
     description:
       "I delivered comprehensive online tutoring part-time to a group of four A-level students from local colleges, fostering their understanding of computer science and mathematics under the Leveling Up Maths program.",
     icon: React.createElement(LuGraduationCap),
-    date: "2023-present",
+    date: "2023-2024",
   },
   {
     title: "Technical Officer & Volunteer",
@@ -71,8 +80,15 @@ export const projectsData = [
     title: "TLA+ Specification Clones (University Final Year Project)",
     description:
       "I have done applied research, data collection, cleansing, processing, and analysis, culminating in structured evaluations and conclusions about specification clones project on TLA+ formal language.",
-    tags: ["Python", "testing", "analysis", "documentation", "phD-level research"],
+    tags: ["Python","data gathering", "data manipulation", "data analysis", "data visulaisation", "documentation", "phD-level research"],
     imageUrl: TLAlogo,
+  },
+  {
+    title: "'M' Music App (Investment Analysis for a Business Project)",
+    description:
+      "I have developed and executed a 2,500-word individual report focused on investment analysis for a business project, applying investment indicators and cash flow modelling techniques to assess project viability.",
+    tags: ["Microsoft Excel", "Microsoft Word", "investment analysis", "financial analysis", "investment indicators", "business report writing"],
+    imageUrl: music,
   },
   {
     title: "Eventlite: event management website",
@@ -86,56 +102,56 @@ export const projectsData = [
     description:
       "I used machine learning to complete faces from incomplete datasets, employing regularized least squares and gradient descent for model creation. Results were visualized using confusion matrices, and model training utilized techniques like one-hot encoding and k-fold cross-validation.",
     tags: ["Machine Learning", "Python", "Numpy", "Matplot", "Jupyter"],
-    //imageUrl: stock,
+    imageUrl: faceRecognition,
   },
   {
     title: "Horizon Detection ",
     description:
       "In my work, I analyzed images using C++ and OpenCV to determine the location of horizons within them. This involved employing techniques such as Canny Edge detection and various filtering methods to precisely visualize the horizon lines within the images.",
     tags: ["C++", "OpenCV", "Canny Edge detection"],
-    //imageUrl: stock,
+    imageUrl: horizon,
   },
   {
     title: "News Article Classification ",
     description:
       "I applied the K-nearest neighbors algorithm using Euclidean distance and Cosine similarity to classify new articles, determining the optimal K value through hyperparameter selection. Surprisingly, Cosine similarity yielded better results than Euclidean distance for the specific data. To handle data sparsity, I utilized Scipy's sparse matrices, enhancing computation efficiency for thousands of matrix multiplications.",
     tags: ["Python", "Jupyter", "Machine Learning"],
-    //imageUrl: stock,
+    imageUrl: article,
   },
   {
     title: "Solar System Visualisation",
     description:
       "I developed an interactive visualisation of the solar system using OpenCV, C++, HTML & Javascript",
     tags: ["OpenCV", "C++", "HTML", "Javascript"],
-    //imageUrl: stock,
+    imageUrl: solar,
   },
   {
     title: "SLAM",
     description:
       "I Implemented three feature matching algorithms including Euclidian Distance, Nearest Neighbour and NNDR using python and OpenCV library to implement Simultaneous Localisation & Mapping on a video of car moving through a street",
     tags: ["OpenCV", "C++"],
-    //imageUrl: stock,
+    imageUrl: car,
   },
   {
     title: "Stendhal",
     description:
       "I collaborated with a team of seven to enhance and develop features for Stendhal, an open-source MORPG game. Our project followed Test-Driven Development practices, integrating Jenkins and CI/CD Brownfield development methods, while Git was used for version control. I actively edited unit tests, totaling over 2100, with JUnit. Additionally, I organized standup meetings to synchronize efforts and coordinate changes, following an issue-driven work methodology.",
     tags: ["Java", "Test-Driven Development", "Git", "Jenkins", "CI/ CD Brown field development"],
-    //imageUrl: Stendhal,
+    imageUrl: Stendhal,
   },
   {
     title: "Othello AI",
     description:
       "Devised and implemented algorithm for AI in Python language in Othello game to beat players using alpha-beta pruning",
     tags: ["Python", "AI"],
-    //imageUrl: moonshot,
+    imageUrl: othello,
   },
   {
     title: "E-Menu (First Year Team Project)",
     description:
       "As part of a seven-person team, I collaborated in designing a recipe web application. Serving as a co-leader, I actively contributed to both the front-end and back-end development processes. Throughout the project, we meticulously tracked and managed version control using Git to ensure seamless collaboration and maintain a coherent development workflow.",
     tags: ["Python", "MySQL", "HTML", "CSS"],
-    //imageUrl: moonshot,
+    imageUrl: recipe,
   },
   {
     title: "Moonshot",

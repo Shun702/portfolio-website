@@ -27,7 +27,7 @@ export default function Intro() {
                   duration : 0.2,
                 }}
                 >
-                <img src= "cats.JPG" alt="cat image"
+                <img src= "cats.JPG" alt="profile image"
                 width="192"
                 height="192"
                 //if image from online source
@@ -52,16 +52,16 @@ export default function Intro() {
 
         </div>
 
-        <motion.h1 className="mb-10 mt-4 px-4 text-2x1 font-medium !leading-[1.5] sm:text-4x1"
+        <motion.h1 className="mb-10 mt-20 px-4 text-2x1 font-medium !leading-[1.5] sm:text-4x1"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0}}
 
         >
           <span className="font-bold">Hello there,</span> I'm 
-          <span className="font-bold"> Shun Le Yi Mon. </span>
+          <span className="font-bold"> Shun Le Yi Mon (Sheryl). </span>
           I'm a{" "}
-          <span className="font-bold">software developer. </span> 
-          I enjoy building <span className="italic">sites & apps</span>. 
+          <span className="font-bold">graduate computer science. </span> 
+          I enjoy working on <span className="italic">software development, data science and data/ business analysis</span> projects. 
         </motion.h1>
 
         <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-1g font-medium"
